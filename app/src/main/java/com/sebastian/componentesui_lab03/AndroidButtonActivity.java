@@ -23,33 +23,38 @@ public class AndroidButtonActivity extends AppCompatActivity {
     }
 
     public void leftIconButton(View view){
-        Log.wtf(TAG,"Botón 1 pulsado");
-        Toast.makeText(this, "Se pulsó el botón 1", Toast.LENGTH_LONG).show();
-    }
-
-    public void rightIconButton(View view){
         Log.wtf(TAG,"Botón 2 pulsado");
         Toast.makeText(this, "Se pulsó el botón 2", Toast.LENGTH_LONG).show();
     }
 
-    public void backgroundImageButton(View view){
+    public void rightIconButton(View view){
         Log.wtf(TAG,"Botón 3 pulsado");
         Toast.makeText(this, "Se pulsó el botón 3", Toast.LENGTH_LONG).show();
     }
 
-    public void borderButton(View view){
+    public void backgroundImageButton(View view){
         Log.wtf(TAG,"Botón 4 pulsado");
         Toast.makeText(this, "Se pulsó el botón 4", Toast.LENGTH_LONG).show();
     }
 
-    public void borderRadiusButton(View view){
+    public void borderButton(View view){
         Log.wtf(TAG,"Botón 5 pulsado");
         Toast.makeText(this, "Se pulsó el botón 5", Toast.LENGTH_LONG).show();
     }
 
-    public void roundButton(View view){
+    public void borderRadiusButton(View view){
         Log.wtf(TAG,"Botón 6 pulsado");
         Toast.makeText(this, "Se pulsó el botón 6", Toast.LENGTH_LONG).show();
+    }
+
+    public void roundButton(View view){
+        Log.wtf(TAG,"Botón 7 pulsado");
+        Toast.makeText(this, "Se pulsó el botón 7", Toast.LENGTH_LONG).show();
+    }
+
+    public void roundButton2(View view){
+        Log.wtf(TAG,"Botón 8 pulsado");
+        Toast.makeText(this, "Se pulsó el botón 8", Toast.LENGTH_LONG).show();
     }
 
 }
