@@ -8,6 +8,11 @@
     <string name="android_button_3">Android Button 3</string>
     <string name="android_button_4">Android Button 4</string>
     <string name="scrollview_horizontal_example">ScrollView Horizontal example</string>
+    <string name="android_edittext_example">Android EditText Example</string>
+    <string name="enter_your_first_name">Enter Your First Name</string>
+    <string name="enter_your_last_name">Enter Your Last Name</string>
+    <string name="register">Register</string>
+    <string name="validate_toast_1">These fields are required</string>
 
     <string-array name="android_layout_arrays">
         <item>Choose a Layout</item>

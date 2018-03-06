@@ -28,7 +28,7 @@ public class EditTextActivity extends AppCompatActivity {
         String getFirstName = firstName.getText().toString();
         String getLastName = lastName.getText().toString();
         if(getFirstName.length() == 0 || getLastName.length() == 0)
-            displayname.setText("These fields are required");
+            displayname.setText(R.string.validate_toast_1);
         else
             displayname.setText("Your username is " + getFirstName + " " + getLastName);
     }

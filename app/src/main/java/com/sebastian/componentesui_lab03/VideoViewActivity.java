@@ -1,10 +1,12 @@
 package com.sebastian.componentesui_lab03;
 
+
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
+
 
 public class VideoViewActivity extends AppCompatActivity {
 
@@ -17,8 +19,8 @@ public class VideoViewActivity extends AppCompatActivity {
 
         videoView = (VideoView) findViewById(R.id.videoview);
         videoView.setMediaController(new MediaController(this));
-    // videoView.setVideoURI(Uri.parse("https://www.youtube.com/watch?v=VyI5BLSy8RU"));
-       videoView.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.vid_paladins));
+        // videoView.setVideoURI(Uri.parse("https://www.youtube.com/watch?v=VyI5BLSy8RU"));
+        videoView.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.vid_paladins));
         videoView.start();
 
 
